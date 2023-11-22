@@ -1,0 +1,39 @@
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgb(0, 0, 0); /* Adjust as per your design */
+  flex-direction: row;
+}
+
+.logo {
+  width: 10%;
+  color: #333;/* Adjust as per your design */
+  float: left;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  float: right;
+}
+
+.nav li {
+  margin-right: 20px;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; /* Adjust as per your design */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ff6b6b; /* Adjust as per your design */
+}
+
